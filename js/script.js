@@ -122,6 +122,19 @@ const printQuote = function () {
     document.getElementById('quote-box').innerHTML = renderedQuote;
 }
 
+// We define a variable to hold our timer
+let interval;
+
+// This function will call the printQuote function and reset the timer
+const startInterval = function () {
+    printQuote();
+    clearInterval(interval);
+    interval = setInterval(printQuote, 20000);
+}
+
+// On page load we call the function with the timer, and the countdown begins
+startInterval();
+
 // This event listener will respond to "Show another quote" button clicks
-// when user clicks anywhere on the button, the "printQuote" function is called
-document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+// when user clicks anywhere on the button, the "startInterval" function is called
+document.getElementById('loadQuote').addEventListener("click", startInterval, false);
