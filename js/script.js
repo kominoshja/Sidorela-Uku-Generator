@@ -17,14 +17,14 @@ const quotes = [{
         tags: ['Node', 'Woman in tech', 'fun'],
         background: 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)'
     },
-/*    {
-        quote: 'I believe life is an intelligent thing, that things aren\'t random',
-        source: 'Steve Jobs',
-        citation: 'Time Magazine',
-        year: '1997',
-        tags: ['Belief', 'Life', 'Intelligent'],
+    {
+        quote: 'Varrosa zogun dhe i cova mandarine mbi varr',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '05/12/2019',
+        tags: ['Sad', 'Zog', 'Madarine Life'],
         background: 'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)'
-    },
+    },/*
     {
         quote: 'Goals transform a random walk into a chase',
         source: 'Mihaly Csikszentmihalyi',
