@@ -11,7 +11,7 @@ const quotes = [{
     },
     {
         quote: 'Uaa sa instalova Node..... sa qef',
-        source: '30/10/2019',
+        source: 'Sidorela Uku',
         citation: '',
         year: '30/10/2019',
         tags: ['Node', 'Woman in tech', 'fun'],
