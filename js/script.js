@@ -133,7 +133,7 @@ const startInterval = function () {
 }
 
 // On page load we call the function with the timer, and the countdown begins
-startInterval();
+//startInterval();
 
 // This event listener will respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "startInterval" function is called
