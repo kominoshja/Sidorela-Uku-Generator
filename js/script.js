@@ -2,22 +2,22 @@
 
 // Create the array of quote objects and name it quotes
 const quotes = [{
-        quote: 'Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you',
-        source: 'Princess Diana',
+        quote: 'Sa me pelqen OpenSUSE',
+        source: 'Sidorela Uku',
         citation: '',
-        year: '1992',
-        tags: ['Expectation', 'Kindness', 'Knowledge', 'Reward'],
+        year: '30/10/2019',
+        tags: ['OpenSUSE', 'blessed', 'love'],
         background: 'linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)'
     },
     {
-        quote: 'Together we can change the world, just one random act of kindness at a time',
-        source: 'Ron Hall',
-        citation: 'Same Kind of Different as Me',
-        year: '2008',
-        tags: ['Change', 'Kindness', 'Time', 'Together', 'World'],
+        quote: 'Uaa sa instalova Node..... sa qef',
+        source: '30/10/2019',
+        citation: '',
+        year: '30/10/2019',
+        tags: ['Node', 'Woman in tech', 'fun'],
         background: 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)'
     },
-    {
+/*    {
         quote: 'I believe life is an intelligent thing, that things aren\'t random',
         source: 'Steve Jobs',
         citation: 'Time Magazine',
@@ -56,7 +56,7 @@ const quotes = [{
         year: '1988',
         tags: ['Philosophy', 'Science', 'Control'],
         background: 'linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)'
-    }
+    }*/
 ];
 
 // Create the getRandomQuuote function and name it getRandomQuote
