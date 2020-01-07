@@ -24,39 +24,207 @@ const quotes = [{
         year: '05/12/2019',
         tags: ['Sad', 'Zog', 'Madarine Life'],
         background: 'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)'
-    },/*
+    },
     {
-        quote: 'Goals transform a random walk into a chase',
-        source: 'Mihaly Csikszentmihalyi',
-        citation: 'Wired Magazine',
-        year: '1996',
-        tags: ['Web', 'Goals', 'Experience'],
+        quote: 'Ooo sa shume text....jo qenka pak',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '30/10/2019',
+        tags: ['text', 'werk'],
         background: 'linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)'
     },
     {
-        quote: 'Luck is not as random as you think. Before that lottery ticket won the jackpot, someone had to buy it.',
-        source: 'Vera Nazarian',
-        citation: 'The Perpetual Calendar of Inspiration',
-        year: '',
-        tags: ['Luck', 'Lottery', 'Jackpot'],
+        quote: 'Jam konfuze',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '30/10/2019',
+        tags: ['Confusion', 'what'],
         background: 'linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)'
     },
     {
-        quote: 'I take random inspiration from everywhere',
-        source: 'Edward Enninful',
-        citation: 'W Magazine',
-        year: '2016',
-        tags: ['Fashion', 'Inspiration', 'Designer'],
+        quote: 'Sapo me pershendeti nje futbollist nga Partizani',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '01/11/2019',
+        tags: ['Partizani', 'Inspiration', 'Recognition'],
         background: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
     },
     {
-        quote: 'Self-control means wanting to be effective at some random point in the infinite radiations of my spiritual existence',
-        source: 'Franz Kafka',
-        citation: 'The necessity of form',
-        year: '1988',
-        tags: ['Philosophy', 'Science', 'Control'],
+        quote: 'E di e di qe jam shume e mire',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '01/11/2019',
+        tags: ['Self Esteem', 'Confidence'],
         background: 'linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)'
-    }*/
+    },
+    {
+        quote: 'Greket dallohen nga fizionomia',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '01/11/2019',
+        tags: ['Nationalism??', 'I need more data'],
+        background: 'linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)'
+    },
+    {
+        quote: 'Sa e zgjuar qe jam',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '01/11/2019',
+        tags: ['Big brain', 'Smart', 'Lum ai qe do me mari'],
+        background: 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)'
+    },
+    {
+        quote: 'Sa me pelqen ky CryptPad',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '01/11/2019',
+        tags: ['Hacktivist', 'Open Source life'],
+        background: 'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)'
+    },
+    {
+        quote: 'Where do you think you\'re going?............Eshte nje kenge',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '01/11/2019',
+        tags: ['I don\'t know why she is like this', 'Spotify sucks'],
+        background: 'linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)'
+    },
+    {
+        quote: 'Kjo cokollata eshte si ekipi jone',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '05/11/2019',
+        tags: ['diabet', 'team building'],
+        background: 'linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)'
+    },
+    {
+        quote: 'Ne ne Baldushk kishim vetem shkolla kolektive',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '05/11/2019',
+        tags: ['Life of Baldushk', 'We don\'t want no education'],
+        background: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
+    },
+    {
+        quote: 'Ej po e bukur kjo nderfaqja e ktyre',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '05/11/2019',
+        tags: ['UI developer', 'Material Designer'],
+        background: 'linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)'
+    },
+    {
+        quote: 'Uuuuuuuuuuuuuu sa nice qenka kjooo',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '05/11/2019',
+        tags: ['No clue what she\'s on about', 'noice'],
+        background: 'linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)'
+    },
+    {
+        quote: 'Ej Partizani eshte ne vend te par',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '05/11/2019',
+        tags: ['Partizani', 'sports nerd', 'statistics and BI'],
+        background: 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)'
+    },
+    {
+        quote: 'Njerezit si perfundim nuk lexojne',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '05/11/2019',
+        tags: ['Sad', 'More books, less screens', 'analfabeter'],
+        background: 'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)'
+    },
+    {
+        quote: 'Edhe gayt jane cute',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '08/11/2019',
+        tags: ['inclusive', 'lgbt+', 'cute'],
+        background: 'linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)'
+    },
+    {
+        quote: '97 + 6 bejne 103 jo 105',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '11/11/2019',
+        tags: ['Mathematics', 'wizzard'],
+        background: 'linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)'
+    },
+    {
+        quote: 'Jam shume e zene.....po lexoj ne Reddit',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '11/11/2019',
+        tags: ['Redditor', 'busy life'],
+        background: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
+    },
+    {
+        quote: 'Mua me pelqen te jem njerezore',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '11/11/2019',
+        tags: ['Lizzard people', 'humanity as a service'],
+        background: 'linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)'
+    },
+    {
+        quote: 'Bletet duhen futur ne kavanoz dhe te lehen aty derisa te bejne mjalt',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '11/11/2019',
+        tags: ['Save the bees', 'Honey from Baldushk'],
+        background: 'linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)'
+    },
+    {
+        quote: 'Boomer is a term of Z generation',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '11/11/2019',
+        tags: ['Okay Boomer'],
+        background: 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)'
+    },
+    {
+        quote: 'Une jam njeri i mire ne pergjithesi',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '02/12/2019',
+        tags: ['Self reflection', 'Goodness comes from within'],
+        background: 'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)'
+    },
+    {
+        quote: 'Nje hap i parendesishem per njerezimin, por nje hap i rendesishem per mua',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '07/01/2020',
+        tags: ['Moon landing was staged', 'Progress'],
+        background: 'linear-gradient(0deg, #08AEEA 0%, #2AF598 100%)'
+    },
+    {
+        quote: 'Ka dhe Sidorela te tjera ne Baldushk',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '04/12/2019',
+        tags: ['Por vetem nje ka dedicated generator'],
+        background: 'linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)'
+    },
+    {
+        quote: 'Sot kishte ditelindjen Vace Zela',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '07/04/2009',
+        tags: ['Vace moj Vace', 'Femija i pare'],
+        background: 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'
+    },
+    {
+        quote: 'Ka nje connection midis meje dhe JavaScript, sepse kemi lindur ne te njejtin vit',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '06/12/2019',
+        tags: ['The universe is alive', 'Childs of God'],
+        background: 'linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)'
+    }
 ];
 
 // Create the getRandomQuuote function and name it getRandomQuote
