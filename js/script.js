@@ -233,6 +233,14 @@ const quotes = [{
         tags: ['Wiki editors united', 'The future depends on us'],
         background: 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)'
     },
+    {
+        quote: 'Uuu ca ngjyre, me pelqen',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '06/12/2019',
+        tags: ['Nature is beautiful', 'Love every color'],
+        background: 'linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)'
+    },
 ];
 
 // Create the getRandomQuuote function and name it getRandomQuote
