@@ -241,6 +241,14 @@ const quotes = [{
         tags: ['Nature is beautiful', 'Love every color'],
         background: 'linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)'
     },
+    {
+        quote: 'Moos ca harrova sot..... Une harroj perdite',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '30/10/2019',
+        tags: ['Forgot but didn\'t forgive', 'I forgot what this hashtag was supposed to be'],
+        background: 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)'
+    },
 ];
 
 // Create the getRandomQuuote function and name it getRandomQuote
