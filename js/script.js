@@ -249,6 +249,14 @@ const quotes = [{
         tags: ['Forgot but didn\'t forgive', 'I forgot what this hashtag was supposed to be'],
         background: 'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)'
     },
+    {
+        quote: 'Ai eshte kaq i kendshem, vertet do ja beje kete?',
+        source: 'Sidorela Uku',
+        citation: '',
+        year: '30/10/2019',
+        tags: ['CUTE', 'Nothing is fair in love and war'],
+        background: 'linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)'
+    },
 ];
 
 // Create the getRandomQuuote function and name it getRandomQuote
